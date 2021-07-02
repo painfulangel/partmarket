@@ -1,0 +1,497 @@
+/**
+@todo Пройтись по девайсам из гугло хрома. Добавить новые разрешения.
+ */
+/* Smartphones (portrait and landscape) ---- от 320 до 480 ------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #headm {
+        background: #044e58 linear-gradient(to top, #374049 0%, #744e58 100%) repeat scroll 0 0;
+        min-height: 119px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    /*_______________________________________*/
+    body, #wrap {
+        min-width: 300px;
+        width: 100%;
+    }
+    #cenrow {
+        min-width: 300px;
+    }
+    #leftmm {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 94%;
+    }
+    .row-fluid .span9 {
+        width: 72.3094% !important;
+    }
+    #content {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    #headm > .span3 > a > img{
+        width: 90%;
+    }
+    #hece span {
+        color: #fff;
+    }
+    .hece-config-site{
+        display: inline-block;
+        width: 49%;
+    }
+    #cenrow .span9{
+        width: 100% !important;
+    }
+    #content{
+        margin-right: 0px;
+    }
+    .img-responsive{
+        min-width: 100%;
+    }
+    .input-append, .input-prepend{
+        width: 100%;
+    }
+    #quick-search-group-a, #quick-search-group{
+        width: 87%;
+    }
+    #met{
+        width: 50% !important;
+    }
+    .kont div{
+        width: 43%;
+        padding: 10px;
+    }
+    .kont img{
+        min-width: 100%;
+    }
+    .legal-entity-toggle > .control-group > .controls > label{
+        display: block;
+        margin-left: 0px !important;
+    }
+    #user-messages-grid{
+        overflow-x: auto;
+    }
+    .tires-block .span3.tires-filter{
+        width: 100%;
+    }
+    #tires-filter-row .tires-filter-checkbox{
+        width: 50%;
+        display: inline-block;
+    }
+    #tires-filter-row .tires-filter-checkbox >input, #tires-filter-row .tires-filter-checkbox > label{
+        display: inline-block;
+    }
+    #tires > div > div{
+        width: 100%;
+        margin: 0px;
+    }
+    #masla > div > div{
+        width: 100%;
+        margin: 0px;
+    }
+    .navbar .btn-navbar {
+        background-color: transparent;
+        background-image: none;
+        background-repeat: no-repeat;
+        border-color: transparent;
+        box-shadow: none;
+        color: #ffffff;
+        float: right;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0;
+        padding: 7px 10px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    }
+    .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active{
+        background-color: transparent;
+    }
+}
+
+/* Smartphones (landscape) ----- Больше 320 ------ */
+@media only screen and (min-width : 321px) {
+/*css code here*/
+}
+
+/* Smartphones (portrait) ----- до 320 ------ */
+@media only screen and (max-width : 320px) {
+/*css code here*/
+    body, #wrap {
+        max-width: 320px;
+    }
+    #cenrow {
+        min-width: 300px;
+    }
+}
+
+/* iPads (portrait and landscape) ----- от 768 до 1024 ------ */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/*css code here*/
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/*css code here*/
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/*css code here*/
+    body, #wrap {
+        min-width: 723px;
+        max-width: 768px;
+    }
+    #cenrow {
+        min-width: 723px;
+    }
+    #leftmm {
+        margin-left: 10px;
+        width: 22.9282%;
+    }
+    .row-fluid .span9 {
+        width: 72.3094% !important;
+    }
+    #content {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    #content h1 {
+         font-size: 18px;
+         margin: 0 0 10px;
+    }
+    #leftm > li > a{
+        font-size: 10px;
+    }
+    #cart {
+        font-size: 0;
+    }
+    .cart {
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        height: 30px;
+        margin-left: 1px;
+        width: 182px;
+    }
+    #hece span {
+        color: #fff;
+    }
+    .hece-config-site{
+        display: inline-block;
+        width: 49%;
+    }
+    .select_byid_name > #select > label{
+        font-size: 1.1em;
+    }
+    .item-model-info{
+        clear: both;
+        display: block;
+    }
+    .img-responsive{
+        min-width: 100%;
+    }
+    #quick-search-group-a, #quick-search-group{
+        max-width: 110px;
+    }
+    .side-cars-front{
+        padding-left: 0px;
+        padding-right: 10px;
+        padding-top: 15px;
+    }
+    #items-list-view > .items > .span6{
+        width: 98.7%;
+        padding: 10px;
+    }
+    #items-list-view > .items > .span6 > .name {
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .car-search-front-image{
+        width: 100%;
+        overflow: hidden;
+    }
+    #items-list-view > .items > .span6 > .chars {
+        min-height: 120px;
+        height: auto;
+    }
+    #items-list-view > .items > .span6 > .chars > .char {
+        font-size: 90%;
+        font-weight: bold;
+    }
+    #request-get-price-form > .control-group > .controls > .span5{
+        width: 100%;
+    }
+    #met {
+        width: 49.0769% !important;
+    }
+    #request-vin-form input.span5, #request-vin-form textarea{
+        width: 100%;
+    }
+    .kont div {
+        width: 25%;
+    }
+    .navbar .btn-navbar {
+        background-color: transparent;
+        background-image: none;
+        background-repeat: no-repeat;
+        border-color: transparent;
+        box-shadow: none;
+        color: #ffffff;
+        float: right;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0;
+        padding: 7px 10px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    }
+    .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active{
+        background-color: transparent;
+    }
+    #request-wu-form > .control-group > .controls > .span5,
+    #orders-form > .control-group > .controls > .span5,
+    #adress_block > .control-group > .controls > .span5,
+    #users-cars-form > .control-group > .controls > .span5,
+    #user-profile-form > .control-group > .controls > .span5,
+    #new-message-form > .control-group > .controls > .span5{
+        width: 100%;
+    }
+    #cart-grid{
+        overflow-x: auto;
+    }
+    .b-brend-about .pic, .b-model-about .pic{
+        display: block;
+        margin: 0px;
+    }
+    .b-brend-about .pic, .b-model-about .pic > img{
+        min-width: 100%;
+    }
+    .b_type_paym{
+        width: 30% !important;
+    }
+    .b_type_paym h3{
+        font-size: 1em;
+    }
+    .b_type_paym > div > p{
+        min-height: 47px;
+    }
+    #web-payments-robokassa-form .span5, #feedbacks-form .span5{
+        width: 100%;
+    }
+    .legal-entity-toggle > .control-group > .controls > label{
+        display: block;
+        margin-left: 0px !important;
+    }
+    .treeTable > tbody > tr > td{
+        word-break: break-all;
+    }
+    .tires-filter{
+        width: 30% !important;
+        padding: 10px;
+    }
+    #tires{
+        width: 67% !important;
+    }
+    #tires > div > div{
+        width: 98.5%;
+        padding: 10px;
+    }
+    #masla{
+        width: 67% !important;
+    }
+    #masla > div > div{
+        width: 98%;
+    }
+    .katalog-to_div{
+        width: 49% !important;
+    }
+    #content > p > iframe{
+        width: 505px;
+    }
+    #complects{
+        overflow-x: auto;
+    }
+
+    #headm {
+        background: #f44e58 linear-gradient(to top, #374049 0%, #f44e58 100%) repeat scroll 0 0;
+        min-height: 119px;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/*css code here*/
+}
+
+/* BlackBerry Torch ---- меньше 480 ---- */
+@media screen and (max-device-width: 480px) {
+/*css code here*/
+
+}
+/*@media screen and (max-width: 480px){
+    body, #wrap {
+        max-width: 480px;
+    }
+    #cenrow {
+        min-width: 300px;
+    }
+}*/
+
+/* Хрен зна для чего разрешение -------- */
+@media screen and (min-device-width: 481px) and (max-device-width: 640px) {
+    /*css code here*/
+    #headm {
+        background: #544e58 linear-gradient(to top, #374049 0%, #00fe58 100%) repeat scroll 0 0;
+        min-height: 119px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        max-width: 620px;
+        position: relative;
+    }
+    /*_______________________________________*/
+    body, #wrap {
+        min-width: 300px;
+        max-width: 640px;
+    }
+    #cenrow {
+        min-width: 300px;
+        max-width: 640px;
+    }
+    #leftmm {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 36%;
+    }
+    .row-fluid .span9 {
+        width: 60% !important;
+    }
+    #content {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    #headm > .span3:first-child{
+        width: 30%;
+    }
+    #headm > .span4:last-child{
+        width: 50%;
+        position: absolute;
+        right: 0px;
+        top:0px;
+    }
+    #hece span {
+        color: #fff;
+    }
+    #hece{
+        font-size: 1.2em;
+    }
+    #items-list-view > .items > .span6{
+        margin-left: 0px;
+    }
+    .img-responsive{
+        min-width: 100%;
+    }
+    .input-append, .input-prepend{
+        display: block;
+    }
+    .car-search-front-image{
+        width: 100%;
+    }
+    #cart-grid{
+        overflow-x: auto;
+    }
+    .form-actions{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .form-actions > a.btn{
+        font-size: 1em;
+    }
+    #met{
+        width: 50% !important;
+    }
+    .legal-entity-toggle > .control-group > .controls > label{
+        display: block;
+        margin-left: 0px !important;
+    }
+    #user-messages-grid, #wto-cars-grid{
+        overflow-x: auto;
+    }
+    .tires-block .span3.tires-filter{
+        width: 100%;
+    }
+    #tires{
+        width: 100% !important;
+    }
+    #tires > div > div{
+        width: 100%;
+        margin: 0px;
+    }
+    .navbar .btn-navbar {
+        background-color: transparent;
+        background-image: none;
+        background-repeat: no-repeat;
+        border-color: transparent;
+        box-shadow: none;
+        color: #ffffff;
+        float: right;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0;
+        padding: 7px 10px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    }
+    .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active{
+        background-color: transparent;
+    }
+    #katalog-accessories .view .span1.pull-left{
+        width: 100%;
+    }
+    #katalog-accessories .image img{
+        width: 100%;
+    }
+    .katalog-to_div{
+        width: 100% !important;
+    }
+    .katalog-to_div > a{
+        display: block;
+    }
+    .katalog-to_div > a:hover{
+        text-decoration: none;
+    }
+    #content > p > iframe{
+        width: 100%;
+    }
+}
+
+/* Samsung GALAXY Tab -------- */
+@media (max-device-width: 1024px) and (orientation: landscape) {
+/*css code here*/
+}
+
+/* Dell Streak 7 --------- */
+@media (max-device-width: 800px) {
+/*css code here*/
+}
+
+/* Motorola's Xoom -------- */
+@media (max-device-width: 1280px) {
+/*css code here*/
+}
+
+/* Desktops and laptops ------ десктопы ----- */
+@media only screen and (min-width : 1224px) {
+    /*css code here*/
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    /*css code here*/
+}

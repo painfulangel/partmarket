@@ -1,0 +1,22 @@
+<?php
+return array( 
+'Create' =>'Create', 
+'Activate' =>'Activate', 
+'Deactivate' =>'Deactivate', 
+'Yes' =>'Yes', 
+'No' =>'No', 
+'Add' =>'Add', 
+'Save' =>'Save', 
+'Fields containing' =>'Fields containing', 
+'Indispensable to filling.' =>'Indispensable to filling.', 
+'This page doesn\'t exist.' =>'This page doesn\'t exist.', 
+'Visible to users' =>'Visible to users', 
+'Token' =>'Token', 
+'Rate' =>'Rate', 
+'Name' =>'Name', 
+'rub.' =>'rub.', 
+'Editing currency' =>'Editing currency', 
+'currency' =>'currency', 
+'Creation of new currency' =>'Creation of new currency', 
+'' =>'', 
+);

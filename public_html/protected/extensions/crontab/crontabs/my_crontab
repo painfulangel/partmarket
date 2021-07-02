@@ -1,0 +1,4 @@
+* * * * 02 php /var/www/cheap-parts.eu/protected/yiic.php ClearFiles
+59 * * * * * php /var/www/cheap-parts.eu/protected/yiic.php PriceExport 1
+41 * */03 * * php /var/www/cheap-parts.eu/protected/yiic.php FtpPriceLoad 1
+59 * * * * * php /var/www/cheap-parts.eu/protected/yiic.php MailBoxLoad 4

@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.10.2014, 15:50:29
+    Author     : Lenovo
+*/
+.icon-pencil {
+	background: url('../images/admin_icons/icon-pencil.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-trash {
+	background: url('../images/admin_icons/icon-trash.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-run {
+	background: url('../images/admin_icons/icon-run.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-results {
+	background: url('../images/admin_icons/icon-results.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-rename {
+	background: url('../images/admin_icons/icon-rename.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-edit-item {
+	background: url('../images/admin_icons/icon-edit-item.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-edit-user {
+	background: url('../images/admin_icons/icon-edit-user.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-user-login {
+	background: url('../images/admin_icons/icon-user-login.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-edit-order {
+	background: url('../images/admin_icons/icon-edit-order.png');
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+}
+.icon-delete-files{
+	background: url('../images/admin_icons/del_files.png') no-repeat;
+	width: 23px;
+	height: 25px;
+}
+.icon-add-sources{
+	background: url('../images/admin_icons/add_sources.png') no-repeat;
+	width: 23px;
+	height: 25px;
+	background-size: contain;
+}
+
+.icon-id-order {
+	margin-top: -2px;
+}
+
+.icon-waybill {
+	background: url('../images/admin_icons/icon-waybill.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-bill {
+	background: url('../images/admin_icons/icon-bill.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-csv {
+	background: url('../images/admin_icons/icon-csv.png');
+	width: 32px;
+	height: 32px;
+}
+
+.icon-table {
+	background: url('../images/admin_icons/icon-table.png');
+	width: 24px;
+	height: 24px;
+}
+
+.grid-view .button-column {
+	width: auto;
+	min-width: 88px;
+}
+
+.left_menu_name_icon {
+	float: right;
+	width: 32px;
+}
+
+div.GalleryEditor i.icon-pencil {
+	background: url('../images/admin_icons/icon-pencil-small.png');
+	width: 16px;
+	height: 16px;
+}

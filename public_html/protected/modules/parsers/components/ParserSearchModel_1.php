@@ -1,0 +1,1 @@
+<?php class ParserSearchModel_1 extends ParserSearchModel {  }

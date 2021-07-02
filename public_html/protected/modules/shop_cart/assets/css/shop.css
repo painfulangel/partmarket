@@ -1,0 +1,65 @@
+#shopping-cart-content div {
+	float: left;
+}
+
+#shopping-cart-content div img {
+	margin-top: 6px;
+	margin-left: 4px;
+}
+
+#shopping-cart {
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+.form_textfld {
+	width: 14px;
+	height: 14px;
+	text-align: center;
+	font-weight: bold;
+	top: 5px;
+	left: 2px;
+	position: relative;
+	border-top: 3px solid #BEBEBE;
+	border-left: 2px solid #BEBEBE;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.cart-js-btn-add-cart, .cart-js-btn-add-cart input {
+	background: url('../images/cart_make.png');
+}
+
+#quick_item_form, #merge_form {
+	display: none;
+	margin-top: 20px;
+}
+
+#order_total_price {
+	margin: 20px 0px;
+}
+
+.ordersuccess {
+    margin: 10px 0px 10px 0px !important;
+    font-weight: bold;
+    border: 1px solid red;
+    padding: 15px;
+    color: red;
+    border-radius: 5px;
+}
+
+#orders-form label.control-label {
+    max-width: 157px;
+}
+
+div.attention {
+	color: red;
+	font-size: 14px;
+}
+
+.btn-cancel {
+	margin-left: 20px;
+}

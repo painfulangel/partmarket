@@ -1,0 +1,13 @@
+.delete_image {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.delete_image input {
+	float: left;
+	margin: 0px 5px 0px 0px !important;
+}
+
+.delete_image label {
+	float: left;
+}

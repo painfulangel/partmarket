@@ -1,0 +1,62 @@
+.vin-form{
+    width:355px;
+    height:493px;
+    background-image:url('../images/vin_kard.png');
+    background-repeat: no-repeat;
+}
+.vin-form input{
+    padding: 0;
+    margin: 0;
+    border:none;
+    background:transparent;
+}
+.vin-form .vin_code{
+    padding:141px 0 0 30px;
+}
+.vin-form .vin_code > input{
+    width: 313px;
+    padding: 0;
+    margin: 0;
+    border:none;
+    background:transparent;
+}
+.vin-form .car_model{
+    padding: 0px 0 0 155px;
+}
+.vin-form .car_model input{
+    width: 188px;
+    padding: 0;
+    margin: 0;
+    border:none;
+    background:transparent;
+}
+.vin-form .car_year{
+    padding: 34px 0 0 285px;
+}
+.vin-form .car_year input{
+    width: 60px;
+    padding: 0;
+    margin: 0;
+    border:none;
+    background:transparent;
+}
+.vin-form .engine_model{
+    padding: 0px 0 0 185px;
+}
+.vin-form .engine_model input{
+    width: 158px;
+    padding: 0;
+    margin: 0;
+    border:none;
+    background:transparent;
+}
+.vin-form .body{
+    padding: 37px 0 0 194px;
+}
+.vin-form .body input{
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    border:none;
+    background:transparent;
+}

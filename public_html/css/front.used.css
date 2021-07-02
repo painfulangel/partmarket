@@ -1,0 +1,120 @@
+.item-model{
+    margin: 5px;
+    padding: 5px;
+}
+.link-model-wrap{
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.link-model-wrap:hover, .link-model-wrap:focus{
+    border: 1px solid #23527c;
+}
+.btn-quick-search-action {
+    cursor: pointer !important;
+    height: 30px !important;
+}
+#items-list-view > .items > .span6{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 0 10px 5px;
+    padding: 20px;
+}
+#items-list-view > .items > .span6 > .name{
+    height: 40px;
+    margin-bottom: 5px;
+}
+#items-list-view > .items > .span6 > .chars{
+    height: 120px;
+    margin-top: 10px;
+}
+#items-list-view > .items > .span6 > .chars > .char{
+    font-size: 80%;
+    margin: 2px 0;
+    overflow: hidden;
+}
+.art-search-result{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 0 10px 5px !important;
+    padding: 20px;
+}
+.art-search-result > .name{
+    height: 40px;
+    margin-bottom: 5px;
+}
+.art-search-result > .chars{
+    height: 120px;
+    margin-top: 10px;
+}
+.art-search-result .chars > .char{
+    font-size: 80%;
+    margin: 2px 0;
+    overflow: hidden;
+}
+#items-list-view.list-view{
+    padding-top: 0px;
+}
+.page-header.h1_small > h1 {
+    color: #4b4f54;
+    font-size: 1.2em !important;
+    line-height: 24px;
+}
+.big-preview {
+    min-height: 91px;
+    min-width: 117px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.box-label {
+    left: 5px;
+    position: absolute;
+    top: 2px;
+}
+.img-thumbnail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    height: auto;
+    line-height: 1.42857;
+    max-width: 100%;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.preview-list .thumbnail {
+    float: left;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    max-width: 84px;
+}
+.buy-block{
+    margin-left: 3px !important;
+}
+#bx-pager a img {
+    border: 1px solid #CCC;
+    padding: 3px;
+    width: 65px;
+    height: 55px;
+}
+.bxslider > li > a{
+    height: 200px;
+    width: 283px;
+    overflow: hidden;
+    text-align: center;
+}
+.bxslider > li > a > img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    width: auto;
+}
+.side-cars-front{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+.car-search-front-image{
+    width: 255px;
+    height: 191px;
+    overflow: hidden;
+}

@@ -1,0 +1,22 @@
+<?php
+return array( 
+'Create' =>'Создать', 
+'Activate' =>'Активировать', 
+'Deactivate' =>'Деактивировать', 
+'Yes' =>'Да', 
+'No' =>'Нет', 
+'Add' =>'Добавить', 
+'Save' =>'Сохранить', 
+'Fields containing' =>'Поля содержащие', 
+'Indispensable to filling.' =>'обязательны к заполнению.', 
+'This page doesn\'t exist.' =>'Даная страница не существует.', 
+'Visible to users' =>'Виден пользователям', 
+'Token' =>'Маркер', 
+'Rate' =>'Курс', 
+'Name' =>'Название', 
+'rub.' =>'руб.', 
+'Editing currency' =>'Редактирование валюты', 
+'currency' =>'Валюты', 
+'Creation of new currency' =>'Создание новой валюты', 
+'' =>'', 
+);

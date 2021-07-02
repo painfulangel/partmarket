@@ -1,0 +1,22 @@
+{
+    "name": "EIMap",
+    "target": "common/components/",
+    "description": "IMAP mailbox reader",
+    "category": "component",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Antonio Ramirez",
+            "email": "antonio@cleveertech.biz",
+            "git": "https://github.com/tonydspaniard"
+        }
+    ],
+    "depends": [],
+    "require": [
+        {
+            "name": "IMap PHP Extension",
+            "version": "latest stable",
+            "homepage": "http://www.php.net/manual/en/book.imap.php"
+        }
+    ]
+}

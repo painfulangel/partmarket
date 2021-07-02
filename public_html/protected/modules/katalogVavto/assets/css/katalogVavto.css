@@ -1,0 +1,184 @@
+#katalog-vavto {
+
+}
+
+#katalog-vavto > div > div {
+    margin-bottom: 20px;
+}
+
+#katalog-vavto .image img {
+    width: 110px;
+}
+
+#katalogVavtoView .images img {
+    width: 120px;
+    margin: 3px;
+}
+
+#katalog_vavto_main_pic img {
+    width: 300px;
+}
+
+.view-katalog-avto-cathegory {
+}
+
+.view-katalog-avto-header img, .view-katalog-avto-header h4 {
+    float: left;
+}
+
+.view-katalog-avto-header img {
+    margin-right: 20px;
+}
+
+.view-katalog-avto-header h4 {
+    line-height: 5px;
+}
+
+div.d_price a {
+    color: red;
+    text-decoration: none;
+}
+
+div.d_price {
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 10px;
+    width: 90px;
+}
+
+/* /katalog/ */
+a.viewall {
+	float: right;
+}
+
+div.incart {
+	background-color: #ccc;
+    border-radius: 3px;
+    height: 26px;
+    width: 28px;
+}
+
+div.incart span {
+	background-image: url("/images/cart.png");
+    background-position: 3px 4px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 25px;
+    width: 23px;
+}
+
+div.items {
+	overflow: hidden;
+}
+
+div.items h3 {
+	text-align: center;
+}
+
+div.items div.brandname a {
+	color: red;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+table.items {
+	margin-top: 20px;
+}
+
+ul.select-car {
+	margin-top: 20px;
+}
+
+ul.select-car, ul.car-models {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.select-car li {
+    background: rgba(0, 0, 0, 0) linear-gradient(#fcfdff, #e8e9e9) repeat scroll 0 0;
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    color: #5c5c5c;
+    cursor: default;
+    display: inline-block;
+    font: 14px/18px arial,tahoma,verdana;
+    list-style: outside none none;
+    margin: 0 2% 1% 0;
+    padding: 5px;
+    vertical-align: top;
+    width: 23.1%;
+}
+
+.display-table {
+    display: table;
+    width: 100%;
+}
+
+ul.select-car li .table-cell:first-child {
+    border-right: 1px solid #cfd0d0;
+    padding-right: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+ul.select-car li .table-cell {
+    vertical-align: middle;
+    width: 50%;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+ul.select-car li .title, ul.select-car li .title a {
+    color: #5c5c5c;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+ul.select-car li .title, ul.select-car li .title a {
+    color: #5c5c5c;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+ul.select-car li a, ul.car-models li a {
+    color: #5c5c5c;
+    text-decoration: none;
+}
+
+ul.car-models {
+	margin-left: 20px;
+}
+
+ul.car-models li {
+    background: rgba(0, 0, 0, 0) url("/images/tire.png") no-repeat scroll 0 10px;
+    border: 0 none;
+    color: #5c5c5c;
+    display: block;
+    font: 14px/18px arial,tahoma,verdana;
+    margin: 0 0 5px;
+    padding: 0 0 0 10px;
+    text-align: left;
+    text-decoration: none;
+    width: auto;
+}
+
+div.blockimg {
+	margin: 0 auto;
+	max-width: 90px;
+}
+
+div.blockimg img {
+	max-height: 90px;
+	max-width: 90px;
+}
+
+.models-staff {
+    display: table-cell;
+}

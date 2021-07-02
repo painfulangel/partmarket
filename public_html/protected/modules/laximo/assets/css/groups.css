@@ -1,0 +1,114 @@
+.gqroups {
+	border: 1px #293239 solid;
+	padding: 10px;
+}
+
+.lSearch {
+	background-color: #293239;
+	margin: 0px 0px 15px -10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.qgroupsBlock {
+	height: 206px;
+	margin-left: 0px !important;
+	position: relative;
+	border: 1px solid #293239;
+	margin: 0px 10px 10px 0px;
+}
+
+.qgroupsBlock div {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	top: 40%;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #444E58;
+	color: white;
+}
+
+.qgroupsBlock div a, .qgroupsBlock div a:HOVER, .qgroupsBlock div a:VISITED {
+	color: white;
+}
+
+.qgContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.qgContainer li {
+    list-style-type: none;
+}
+
+/* indent for all tree children excepts root */
+.qgNode {
+    background-image : url(../img/i.gif);
+    background-position : top left;
+    background-repeat : repeat-y;
+    margin-left: 18px;
+    zoom: 1;
+}
+
+.qgIsRoot {
+    margin-left: 0;
+}
+
+/* left vertical line (grid) for all nodes */
+.qgIsLast {
+    background-image: url(../img/i_half.gif);
+    background-repeat : no-repeat;
+}
+
+.qgExpandOpen .qgExpand {
+    background-image: url(../img/expand_minus.gif);
+}
+
+/* closed is higher priority than open */
+.qgExpandClosed .qgExpand {
+    background-image: url(../img/expand_plus.gif);
+}
+
+/* highest priority */
+.qgExpandLeaf .qgExpand {
+    background-image: url(../img/expand_leaf.gif);
+}
+
+.qgContent {
+    min-height: 18px;
+    margin-left:18px;
+}
+
+.qgContent {
+    /*height: 18px;*/
+}
+
+.qgExpand {
+    width: 18px;
+    height: 18px;
+    float: left;
+}
+
+
+.qgExpandLoading   {
+    width: 18px;
+    height: 18px;
+    float: left;
+    background-image: url(../img/expand_loading.gif);
+}
+
+.qgExpandOpen .qgContainer {
+	display: block;
+}
+
+.qgExpandClosed .qgContainer {
+	display: none;
+}
+
+.qgExpandOpen .qgExpand, .qgExpandClosed .qgExpand {
+	cursor: pointer;
+}
+.qgExpandLeaf .qgExpand {
+	cursor: auto;
+}

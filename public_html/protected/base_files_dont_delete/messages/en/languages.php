@@ -1,0 +1,27 @@
+<?php
+
+return array(
+    'Create' => 'Create',
+    'Enable' => 'Enable',
+    'Disable' => 'Disable',
+    'Yes' => 'Yes',
+    'No' => 'No',
+    'Add' => 'Add',
+    'Save' => 'Save',
+    'Fields contain' => 'Fields contain',
+    'must be filled.' => 'must be filled.',
+    'This Page not found.' => 'This Page not found.',
+    'Language' => 'Language',
+    'Prefix' => 'Prefix',
+    'Short title' => 'Short title',
+    'Name' => 'Name',
+    'Setting translations' => 'Setting translations',
+    'Creating a new translation' => 'Creating a new translation',
+    'Basic' => 'Basic',
+    'Rewrite files' => 'Rewrite files',
+    'Download files' => 'Download files',
+    'Edit translation' => 'Edit translation',
+    'All' => 'All',
+    'Use a unique alias' => 'Use a unique alias',
+    '' => '',
+);

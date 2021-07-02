@@ -1,0 +1,12 @@
+.idea/
+/protected/config/all_params.php
+/assets/
+/framework/
+/upload_files/
+/uploads/
+/robo.txt
+/robots.txt
+/94ac48fe2c75629bd652e5c9e1dfc3e902bdbc08649182110552a8caf9b37ec2.html
+/.htaccess
+/protected/runtime/
+/images/

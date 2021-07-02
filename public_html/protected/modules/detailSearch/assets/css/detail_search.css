@@ -1,0 +1,391 @@
+.Filter_items_articul_name{
+    float: left;
+    padding: 5px 0px;
+    width: 115px;
+}
+/*
+.Filter_items_articul_color1{
+    background: #EEEEEE;
+}
+.Filter_items_articul_color2{
+    background: #B9B9B9;
+}
+*/
+
+.Filter_items_element_color1{
+    background: url('../images/items_bg1.jpg');
+    background-repeat: repeat;
+}
+.Filter_items_element_color2{
+    background: url('../images/items_bg2.jpg');
+    background-repeat: repeat;
+}
+
+
+.Filter_items_articul:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.Filter_items_articul{
+    width: 771px;
+    text-align: center;
+    background: url('../images/articul_bg.jpg');
+    background-repeat: repeat;
+    border-bottom: 1px solid #FFF;
+
+}
+.Filter_items_get_order input {
+    width: 28px;
+    height: 14px;
+    text-align: center;
+    font-weight: bold;
+    top: 5px;
+    left: 2px;
+    position: relative;
+    border-top: 3px solid #BEBEBE;
+    border-left: 2px solid #BEBEBE;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.Filter_items_get_order images{
+    cursor: pointer;
+}
+.Filter_items_get_order a{
+    display: none;
+    /*
+    font-color:#040404;
+    */
+}
+.Filter_items_get_order:after{
+
+}
+.Filter_items_get_order{
+    width: 70px;
+}
+.Filter_items_sklad{
+    width: 70px;
+    font-size: 9px;
+}
+.Filter_items_kolichestvo{
+    width: 70px;
+}
+.Filter_items_dostavka{
+    width: 70px;
+}
+.Filter_items_price{
+    width: 70px;
+}
+.Filter_items_name{
+    width: 150px;
+    font-size: 11px;
+
+}
+.Filter_items_brand{
+    width: 130px;
+    font-size: 11px;
+
+}
+.Filter_items_articul_elements{
+    float: right;
+    width: 638px; 
+}
+.Filter_items_articul_elements div{
+    /*float: left;*/
+    padding: 3px 0px;
+}
+.Filter_items_articul_elements>div{
+    padding:0;
+    display: table;
+    -moz-box-sizing: border-box;      /* фикс проблемы для Firefox       */
+    -webkit-box-sizing: border-box;   /* фикс для старых Chrome и Safari */
+    box-sizing: border-box;           /* не поддерживается в CSS2        */
+}
+.Filter_items_articul_elements>div>div{
+    border-left: 1px solid #FFF;
+    display: table-cell;
+    -moz-box-sizing: border-box;      /* фикс проблемы для Firefox       */
+    -webkit-box-sizing: border-box;   /* фикс для старых Chrome и Safari */
+    box-sizing: border-box;           /* не поддерживается в CSS2        */
+    position: relative;
+    vertical-align:middle;
+}
+/*
+.Filter_items_articul_elements>div:hover{
+    background: #E8E9DA;
+}
+*/
+.Filter_items_articul_elements>div:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.Filter_detail_name{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Filter_group_items{
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов для всех, кто понимает */
+    border-color: #E0E0E0;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 12px;
+    font-weight: bold;
+    width: 771px;
+}
+.Filter_header{
+    display: table;
+}
+.Filter_header>div{
+    display: table-cell;
+    -moz-box-sizing: border-box;      /* фикс проблемы для Firefox       */
+    -webkit-box-sizing: border-box;   /* фикс для старых Chrome и Safari */
+    box-sizing: border-box;           /* не поддерживается в CSS2        */
+    position: relative;
+    /*    vertical-align:middle;*/
+    background: url('../images/header_bg.jpg') repeat-x;
+    height: 37px;
+    color: #FFF;
+    text-align: center;
+    border-left: 1px solid #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.Filter_items_artikul_header{
+    width: 139px;
+    border: none;
+    -moz-border-radius:  10px  0 0 0; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 10px  0 0 0; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:10px  0 0 0; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 10px  0 0 0; /* закругление углов для всех, кто понимает */
+}
+.Filter_header>.Filter_items_get_order{
+
+
+    width: 81px;
+    -moz-border-radius:    0 10px 0 0 ; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius:   0 10px 0 0; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius: 0 10px 0 0; /* закругл. для браузера Konquerer системы Linux */
+    border-radius:   0 10px 0 0; /* закругление углов для всех, кто понимает */
+    font-size: 10px;
+
+    vertical-align: top;
+    padding-top: 7px;
+}
+.Filter_header>.Filter_items_kolichestvo{
+    font-size: 9px;
+    line-height: 10px;
+    padding-top: 5px;
+    text-transform: lowercase;
+    vertical-align: top;
+    padding-top: 8px;
+}
+.Filter_header>.Filter_items_kolichestvo>div>div{
+    line-height: 28px;
+}
+
+.Filter_header>.Filter_items_dostavka>div{
+    margin-top: -15px;
+}
+.Filter_header>.Filter_items_kolichestvo>div{
+    margin-top: -17px;
+}
+.Filter_header>.Filter_items_dostavka{
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: lowercase;
+    vertical-align: top;
+    padding-top: 4px;
+}
+.Filter_header>.Filter_items_dostavka>div{
+    margin-top: -15px;
+}
+.Filter_header>.Filter_items_dostavka>div>div{
+    line-height: 25px;
+}
+.Filter_h1{
+    /*color: #0096AD;*/
+    float: left
+}
+#Filter_done_div .Filter_done_text{
+    background: url('../images/progress_text.png') no-repeat;
+    width: 167px;
+    height: 39px;
+    float: left;
+    color: #FFF;
+    padding: 2px 10px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+#Filter_done_div images{
+    width:35px;
+    float: left;
+
+}
+#Filter_done_div img{
+    width: 40px;
+    margin-top: 10px;
+}
+#Filter_done_div{
+    margin-left: 10px;
+}
+#Filter_done_div:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/*
+.Filter_header>div>images:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}*/
+.Filter_header>div>div>images,.Filter_header>div>div>div>images{
+    width:13px;
+    cursor: pointer;
+}
+.Filter_header>div>div{
+    float:right;
+}
+.Filter_down_images{
+    margin-top: -5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.Filter_header>.Filter_items_brand,.Filter_header>.Filter_items_name,.Filter_header>.Filter_items_price{
+
+}
+.Filter_header>.Filter_items_price{
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+.Filter_header>.Filter_items_price >div{
+    margin-top: -7px;
+
+}
+.Filter_header>.Filter_items_price .Filter_down_images{
+
+    margin-bottom: 11px;
+}
+
+.Filter_items_articul_elements .Filter_items_sklad,.Filter_items_articul_elements .Filter_items_kolichestvo{
+    font-weight: normal;
+}
+
+.Filter_down_img{
+    margin-top: -15px;
+}
+
+.Filter_items_name>div{
+    margin-top: -7px;
+}
+
+.Filter_items_brand>div{
+    margin-top: -7px;
+}
+
+
+
+.js-btn-add-cart,.js-btn-add-cart input{
+    background: url('../images/cart.png');
+}
+
+.Filter_items_get_order form{
+    margin:0;
+}
+
+.searchOther{
+    background: url("../images/red_button.png") no-repeat;
+    width: 270px;
+    margin-left: 260px;
+    height: 71px;
+    padding-top: 15px;
+    line-height: 20px;
+    margin-top: 15px;
+    text-align: center;
+    /*margin: 0 auto;*/
+    margin-top: 15px;
+}
+
+.searchOther a{
+    color:#FFFFFF;
+}
+
+#Filter_criteria_div{
+
+}
+#Filter_criteria_div b{
+    font-size: 12px;
+}
+#Filter_criteria_div input{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 10px;   
+}
+
+#main_load_block{
+    width: 780px;
+}
+
+.filter_show_hide_buutons_detail_search:hover{
+    cursor: pointer !important;
+}
+.Filter_detail_name a{
+    color: #f89406 !important;
+
+}
+.search_main_table th a:hover{
+    cursor: pointer;
+}
+.search_main_table th a{
+    padding-right: 15px;
+}
+
+a.fancybox, a.fancybox:hover {
+    border-bottom: 1px dashed black;
+    color: black;
+    text-decoration: none;
+}
+
+iframe.fancybox-iframe html {
+    overflow: hidden;
+}

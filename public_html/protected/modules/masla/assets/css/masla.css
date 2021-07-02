@@ -1,0 +1,264 @@
+.pagination {
+	clear: both;
+}
+
+div.file_list {
+	margin-top: 20px;
+}
+
+div.file_list div a {
+	background: url('/images/pdf.png') no-repeat left center;
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 6px 0px 6px 34px;
+}
+
+div.volume {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+div.volume div {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.volume a {
+	background-color: #ededed;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 10px 10px 0px 0px;
+	padding: 0 11px;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+div.volume a.active {
+	background-color: red;
+	color: white;
+}
+
+div.volume a:hover {
+	text-decoration: none;
+}
+
+a.ntvs {
+	display: none;
+}
+
+.tires-block {
+	margin-left: 0px !important;
+}
+
+#masla>div>div, .tires-filter {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 0 5px 10px;
+	padding: 20px;
+}
+
+.tires-filter {
+	margin: 0px;
+}
+
+.tires-filter-block {
+	overflow: hidden;
+}
+
+#masla div.block {
+	overflow: hidden;
+}
+
+#masla .image {
+	float: left;
+	height: 90px;
+}
+
+#masla .price {
+	float: right;
+	padding-top: 40px;
+}
+
+#masla .image img {
+	max-height: 90px;
+	max-width: 60px;
+}
+
+#masla .brand {
+	font-weight: bold;
+}
+
+#masla .name {
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+#masla div.chars {
+	height: 150px;
+	margin-top: 10px;
+}
+
+#masla div.chars div.char {
+	font-size: 80%;
+	margin: 2px 0;
+	overflow: hidden;
+}
+
+#masla div.chars div.char div.lb {
+	border-bottom: 1px dotted;
+	float: left;
+	width: 45%;
+}
+
+#masla div.chars div.char div.lb span {
+	background-color: white;
+	padding: 0 2px 1px 0;
+}
+
+#masla div.chars div.char div.value {
+	float: left;
+	margin-left: 10px;
+}
+
+#tires-filter-row {
+	margin-left: 0px !important;
+}
+
+.masla-filter-checkbox {
+	margin-left: 0px !important;
+}
+
+.masla-filter-checkbox input, .masla-filter-checkbox label {
+	float: left;
+}
+
+.masla-filter-checkbox label {
+	width: 80%;
+	font-size: 13px;
+}
+
+.masla-filter-checkbox input {
+	margin-right: 4px !important;
+}
+
+.switcher_wrap {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.switcher_wrap .item_switch {
+	cursor: pointer;
+	float: left;
+}
+
+.switcher_wrap .item_switch span {
+	border-bottom: 1px dotted;
+}
+
+.switcher_wrap .item_switch.show_popular {
+	border-right: 1px solid #333333;
+	padding-right: 10px;
+}
+
+.switcher_wrap .item_switch.show_all {
+	padding: 0 0 1px 10px;
+}
+
+.switcher_wrap .item_switch.act_switch {
+	color: #0088cc;
+}
+
+.switcher_wrap .item_switch.act_switch span {
+	border-bottom: none;
+}
+
+.masla-filter-checkbox.filter-hidden.check-hidden {
+	display: none !important;
+}
+
+#slider-range {
+	margin: 0 10px 2px 7px;
+}
+
+.tires-filter input.btn-primary {
+	margin-top: 20px;
+	width: 100%;
+}
+
+/* Temporary css 
+#content {
+	min-width: 1270px;
+}
+
+#content div.tires-block {
+	min-width: 1200px;
+}
+
+#content div.tires-filter {
+	min-width: 290px;
+}
+
+#content #masla {
+	min-width: 880px
+}*/
+@media screen and (max-width: 1387px) {
+	#tires-filter-row .masla-filter-checkbox {
+		width: 100%;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	#masla>div>div {
+		width: 48%
+	}
+}
+
+@media(max-width:1330px) and (min-width: 1200px) {
+	#masla .price .btn {
+		padding: 4px 8px;
+		font-size: 12px;
+	}
+
+	#masla div.block {
+		height: 90px;
+	}
+
+	#masla div.chars div.char div.lb {
+		width: 61%
+	}
+
+	#masla div.chars div.char div.value {
+		margin-left: 7px;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.tires-filter #amountMin, #amountMax {
+		width: 35px !important;
+	}
+}
+
+@media screen and (max-width: 1117px) { {
+	.tires-filter-block h5 {
+		font-size: 12px;
+		color: #000
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#tires {
+		width: 74% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.tires-block .span3.tires-filter {
+		float: left;
+		width: 23%;
+	}
+	#masla>div>div {
+		float: left;
+	}
+}
